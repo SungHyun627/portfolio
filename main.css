@@ -24,7 +24,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 4rem;
 }
 
 .header__title {
@@ -82,11 +82,14 @@
   height: 300px;
 }
 
+.projects {
+  margin-bottom: 4rem;
+}
+
 .projects__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 10rem;
-  padding: 0 4rem;
 }
 
 .projects__title {
@@ -115,4 +118,34 @@
 .project__description {
   font-size: 1.1rem;
   color: #a1a1a3
+}
+
+.education-and-interests__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+
+.education__container__title, .interest__container__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.education, .interest {
+  margin-bottom: 1.5rem;
+}
+
+.education__title, .interest__title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.education__period {
+  color: #a1a1a3
+}
+
+.interest-items {
+  font-size: 1.2rem;
+  font-weight: 350;
+  margin-bottom: 0.5rem;
 }
