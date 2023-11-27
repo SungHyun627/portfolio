@@ -5,7 +5,7 @@
   font: inherit;
   vertical-align: baseline;
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   list-style: none;
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@
 
 .header__title {
   font-size: 2.5rem;
-  font-weight: 600
+  font-weight: 800
 }
 
 .header__social__links {
@@ -44,6 +44,10 @@
 .social__link__img {
   width: 40px;
   height: 40px;
+}
+
+.introduction {
+  margin-bottom: 60px;
 }
 
 .introduction__title {
@@ -66,10 +70,49 @@
   justify-content: flex-end;
 }
 
+.introduction__idPhoto img {
+  border-radius: 1rem;
+}
+
 .introduction__aboutme {
   line-height: 2rem;
 }
 
 .idPhoto {
   height: 300px;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  padding: 0 4rem;
+}
+
+.projects__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project__img img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.project__title {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project__external__link {
+  margin: 0 0.5rem;
+}
+
+.project__description {
+  font-size: 1.1rem;
+  color: #a1a1a3
 }
