@@ -12,22 +12,23 @@
 
 .display__layout {
   background-color: #ebebed;
-  padding: 50px 100px;
+  padding: 100px;
   min-height: 100vh;
 }
 
 .display__contents {
   background-color: #ffffff;
-  padding: 100px 100px;
+  padding: 80px 120px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .header__title {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600
 }
 
@@ -41,6 +42,34 @@
 }
 
 .social__link__img {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.introduction__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.introduction__detail {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+}
+
+.introduction__aboutme {
+  font-size: 1.3rem;
+  font-weight: 350;
+}
+
+.introduction__idPhoto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.introduction__aboutme {
+  line-height: 2rem;
+}
+
+.idPhoto {
+  height: 300px;
 }
